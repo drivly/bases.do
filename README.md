@@ -2,9 +2,9 @@
 Airtable Base API Proxy for Caching and to Prevent Data Loss During Rate Limiting
 
 To get started, just invite any or all of these accounts to be collaborators on your Airtable Base.
-- `readwrite@bases.do`
-- `readonly@bases.do`
-- `publicreadonly@bases.do` 
+- Full Read & Write Access - `readwrite@bases.do`
+- Read-only Access - `readonly@bases.do`
+- Public Read-only Access - `publicreadonly@bases.do` 
 
 if you have large amounts of reads and will be hitting your rate limits, even with the cache in place, you can also invite these address (at no cost, because Airtable doesn't charge for read-only collaborators, but each read-only api key gets an additional 5 requests / second.
 
